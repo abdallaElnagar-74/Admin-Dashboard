@@ -1,0 +1,7 @@
+@import "tailwindcss";
+.admin-layout {
+  @apply flex flex-col lg:flex-row min-h-screen w-full;
+  .children {
+    @apply w-full h-screen pt-12 lg:pt-10;
+  }
+}
